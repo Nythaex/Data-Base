@@ -100,8 +100,8 @@ WHERE c.`id`=pc.`coach_id`
 )>0 AND LEFT(c.`first_name`,1)='A';
 
 -- Delete
-DELETE FROM `players` AS p
-WHERE `age`>45;
+DELETE FROM `players`
+WHERE `age`>=45;
 
 SELECT COUNT(*) FROM players;
 	

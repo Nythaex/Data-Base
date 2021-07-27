@@ -105,7 +105,7 @@ SELECT -- no
             AVG(m.`salary`)
         FROM
             `employees` AS m
-        GROUP BY `department_id`)) AS d
+        GROUP BY `department_id`)) AS min
 FROM
     `employees`;
 

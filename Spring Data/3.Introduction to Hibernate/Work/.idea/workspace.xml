@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f09228b8-0dd8-44d1-9818-ea43bbdee47a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../MySQL/Exams/Database Basics MySQL Exam - 18 Oct 2020/01. Table Design_Data (1).sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../MySQL/Exams/Database Basics MySQL Exam - 18 Oct 2020/01. Table Design_Description.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../MySQL/Exams/Database Basics MySQL Exam - 18 Oct 2020/exa.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../MySQL/Exams/exam/01. Table Design_Data (2).sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../MySQL/Exams/exam/01. Table Design_Problem Description.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../MySQL/Exams/exam/exa.mwb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../MySQL/Exams/exam/exa.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../MySQL_cheatsheet.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../1.Database Access with JDBC/Exa/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../1.Database Access with JDBC/Exa/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../1.Database Access with JDBC/Exa/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../1.Database Access with JDBC/Exa/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../1.Database Access with JDBC/Exa/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../1.Database Access with JDBC/Exa/.idea/libraries/mysql_connector_java_8_0_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../1.Database Access with JDBC/Exa/.idea/libraries/mysql_connector_java_8_0_251.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../1.Database Access with JDBC/Exa/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../1.Database Access with JDBC/Exa/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../1.Database Access with JDBC/Exa/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../1.Database Access with JDBC/Exa/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../1.Database Access with JDBC/Exa/01. Spring-Data-Database-Access-With-JDBC-Exercises.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../1.Database Access with JDBC/Exa/Exa.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../1.Database Access with JDBC/Exa/minions_db.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../1.Database Access with JDBC/Exa/out/production/Exa/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../1.Database Access with JDBC/Exa/out/production/Exa/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../1.Database Access with JDBC/Exa/out/production/Exa/.idea/libraries/mysql_connector_java_8_0_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../1.Database Access with JDBC/Exa/out/production/Exa/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../1.Database Access with JDBC/Exa/out/production/Exa/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../1.Database Access with JDBC/Exa/out/production/Exa/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../1.Database Access with JDBC/Exa/out/production/Exa/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../1.Database Access with JDBC/Exa/out/production/Exa/AddMinion/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../1.Database Access with JDBC/Exa/out/production/Exa/ChangeTownNamesCasing/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../1.Database Access with JDBC/Exa/out/production/Exa/Exa.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../1.Database Access with JDBC/Exa/out/production/Exa/GetMinionNames/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../1.Database Access with JDBC/Exa/out/production/Exa/GetVillainsNames/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../1.Database Access with JDBC/Exa/out/production/Exa/IncreaseAgeStoredProcedure/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../1.Database Access with JDBC/Exa/out/production/Exa/IncreaseMinionsAge/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../1.Database Access with JDBC/Exa/out/production/Exa/PrintAllMinionNames/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../1.Database Access with JDBC/Exa/out/production/Exa/RemoveVillain/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../1.Database Access with JDBC/Exa/out/production/Exa/out/production/Exa/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../1.Database Access with JDBC/Exa/out/production/Exa/out/production/Exa/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../1.Database Access with JDBC/Exa/out/production/Exa/out/production/Exa/.idea/libraries/mysql_connector_java_8_0_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../1.Database Access with JDBC/Exa/out/production/Exa/out/production/Exa/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../1.Database Access with JDBC/Exa/out/production/Exa/out/production/Exa/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../1.Database Access with JDBC/Exa/out/production/Exa/out/production/Exa/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../1.Database Access with JDBC/Exa/out/production/Exa/out/production/Exa/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../1.Database Access with JDBC/Exa/out/production/Exa/out/production/Exa/Exa.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../1.Database Access with JDBC/Exa/~$. Spring-Data-Database-Access-With-JDBC-Exercises.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../1.Database Access with JDBC/Work/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../1.Database Access with JDBC/Work/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../1.Database Access with JDBC/Work/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../1.Database Access with JDBC/Work/.idea/libraries/mysql_connector_java_8_0_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../1.Database Access with JDBC/Work/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../1.Database Access with JDBC/Work/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../1.Database Access with JDBC/Work/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../1.Database Access with JDBC/Work/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../1.Database Access with JDBC/Work/01. Spring-Data-Database-Access-With-JDBC-Lab.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../1.Database Access with JDBC/Work/01. Spring-Data-Database-Access-With-JDBC.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../1.Database Access with JDBC/Work/Database Access with JDBC.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../1.Database Access with JDBC/Work/Work.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../1.Database Access with JDBC/Work/diablo_database.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../1.Database Access with JDBC/Work/out/production/Database Access with JDBC/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../1.Database Access with JDBC/Work/soft_uni_database.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../1.Database Access with JDBC/Work/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2.ORM Fundamentals/Work/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2.ORM Fundamentals/Work/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2.ORM Fundamentals/Work/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2.ORM Fundamentals/Work/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2.ORM Fundamentals/Work/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2.ORM Fundamentals/Work/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2.ORM Fundamentals/Work/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2.ORM Fundamentals/Work/02. ORM-Fundamentals.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2.ORM Fundamentals/Work/Workshop-Custom ORM-Part1-Lab.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2.ORM Fundamentals/Work/Workshop-Custom ORM-Part2.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2.ORM Fundamentals/Work/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2.ORM Fundamentals/Work/src/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2.ORM Fundamentals/Work/src/src/main/java/bg/codexio/customOrmDemo/ApplicationStarter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2.ORM Fundamentals/Work/src/src/main/java/bg/codexio/customOrmDemo/entity/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2.ORM Fundamentals/Work/src/src/main/java/bg/codexio/customOrmDemo/entity/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2.ORM Fundamentals/Work/src/src/main/java/bg/codexio/customOrmDemo/entity/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2.ORM Fundamentals/Work/src/src/main/java/bg/codexio/customOrmDemo/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2.ORM Fundamentals/Work/src/src/main/java/ormFramework/annotation/Column.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2.ORM Fundamentals/Work/src/src/main/java/ormFramework/annotation/Entity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2.ORM Fundamentals/Work/src/src/main/java/ormFramework/annotation/Id.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2.ORM Fundamentals/Work/src/src/main/java/ormFramework/core/EntityManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2.ORM Fundamentals/Work/src/src/main/java/ormFramework/core/EntityManagerFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2.ORM Fundamentals/Work/src/src/main/java/ormFramework/core/EntityManagerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2.ORM Fundamentals/Work/target/classes/ORMDEMO/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exa/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exa/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exa/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exa/.idea/dataSources/6f1e7710-84dd-4c2d-aa6f-4df94f129e8e.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exa/.idea/dataSources/6f1e7710-84dd-4c2d-aa6f-4df94f129e8e/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exa/.idea/dataSources/6f1e7710-84dd-4c2d-aa6f-4df94f129e8e/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exa/.idea/dataSources/6f1e7710-84dd-4c2d-aa6f-4df94f129e8e/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exa/.idea/dataSources/b38a3d5c-34fa-4470-9482-38c9ece53a34.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exa/.idea/dataSources/b38a3d5c-34fa-4470-9482-38c9ece53a34/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exa/.idea/dataSources/b38a3d5c-34fa-4470-9482-38c9ece53a34/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exa/.idea/dataSources/b38a3d5c-34fa-4470-9482-38c9ece53a34/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exa/.idea/dataSources/b38a3d5c-34fa-4470-9482-38c9ece53a34/storage_v2/_src_/schema/soft_uni.W8OYTg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exa/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exa/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exa/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exa/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_11_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exa/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exa/.idea/libraries/Maven__com_sun_xml_fastinfoset_FastInfoset_1_2_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exa/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exa/.idea/libraries/Maven__javax_persistence_javax_persistence_api_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exa/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exa/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exa/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exa/.idea/libraries/Maven__org_dom4j_dom4j_2_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exa/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exa/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exa/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exa/.idea/libraries/Maven__org_hibernate_hibernate_core_5_4_22_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exa/.idea/libraries/Maven__org_javassist_javassist_3_24_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exa/.idea/libraries/Maven__org_jboss_jandex_2_1_3_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exa/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exa/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_1_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exa/.idea/libraries/Maven__org_jvnet_staxex_stax_ex_1_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exa/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exa/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exa/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exa/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exa/03. DB-Advanced-Introduction-to-Hibernate-Exercises.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exa/Database.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exa/Exa.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exa/introtohibernate.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exa/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exa/src.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exa/src/main/java/Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exa/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exa/src/main/java/entities/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exa/src/main/java/entities/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exa/src/main/java/entities/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exa/src/main/java/entities/Project.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exa/src/main/java/entities/Town.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exa/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exa/target/classes/Engine.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exa/target/classes/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exa/target/classes/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exa/target/classes/entities/Address.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exa/target/classes/entities/Department.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exa/target/classes/entities/Employee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exa/target/classes/entities/Project.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exa/target/classes/entities/Town.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exa/~$. DB-Advanced-Introduction-to-Hibernate-Exercises.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/4c2d696a-37a0-4ab0-8112-f2905b1b7d93.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/4c2d696a-37a0-4ab0-8112-f2905b1b7d93/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/4c2d696a-37a0-4ab0-8112-f2905b1b7d93/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/4c2d696a-37a0-4ab0-8112-f2905b1b7d93/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/7eebe761-7864-4e20-ba9e-f63197f555bd.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/7eebe761-7864-4e20-ba9e-f63197f555bd/storage_v2/_src_/schema/hibernate_work.3kqgyg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/7eebe761-7864-4e20-ba9e-f63197f555bd/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/7eebe761-7864-4e20-ba9e-f63197f555bd/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/7eebe761-7864-4e20-ba9e-f63197f555bd/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03. DB-Advanced-Introduction-to-Hibernate.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Work.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/Town.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Town.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/User.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Town.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/User.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/entity/Town.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Exa/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Exa/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Exa/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Exa/.idea/dataSources/af9818ea-fc0d-4fd5-8939-943ccccb0745.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Exa/.idea/dataSources/af9818ea-fc0d-4fd5-8939-943ccccb0745/storage_v2/_src_/schema/code_first_hibernate.MVMjFw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Exa/.idea/dataSources/af9818ea-fc0d-4fd5-8939-943ccccb0745/storage_v2/_src_/schema/code_first_hibernatefinal.5cRk4g.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Exa/.idea/dataSources/af9818ea-fc0d-4fd5-8939-943ccccb0745/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Exa/.idea/dataSources/af9818ea-fc0d-4fd5-8939-943ccccb0745/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Exa/.idea/dataSources/af9818ea-fc0d-4fd5-8939-943ccccb0745/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Exa/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Exa/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Exa/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Exa/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Exa/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Exa/04. Hibernate-Code-First-Exercises.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Exa/Exa.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Exa/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Exa/src.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Exa/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Exa/src/main/java/entity/BasicTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Exa/src/main/java/entity/BillsPaymentSystem/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Exa/src/main/java/entity/BillsPaymentSystem/BillingDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Exa/src/main/java/entity/BillsPaymentSystem/CreditCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Exa/src/main/java/entity/BillsPaymentSystem/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Exa/src/main/java/entity/Football/Bet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Exa/src/main/java/entity/Football/BetGames.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Exa/src/main/java/entity/Football/Color.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Exa/src/main/java/entity/Football/Competition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Exa/src/main/java/entity/Football/CompetitionType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Exa/src/main/java/entity/Football/Continent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Exa/src/main/java/entity/Football/Country.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Exa/src/main/java/entity/Football/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Exa/src/main/java/entity/Football/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Exa/src/main/java/entity/Football/PlayerStatistic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Exa/src/main/java/entity/Football/Position.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Exa/src/main/java/entity/Football/ResultPrediction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Exa/src/main/java/entity/Football/Round.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Exa/src/main/java/entity/Football/Team.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Exa/src/main/java/entity/Football/Town.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Exa/src/main/java/entity/Football/Users.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Exa/src/main/java/entity/Gringotts/WizardDeposits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Exa/src/main/java/entity/HospitalDatabase/Diagnoses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Exa/src/main/java/entity/HospitalDatabase/History.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Exa/src/main/java/entity/HospitalDatabase/Medicament.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Exa/src/main/java/entity/HospitalDatabase/Patient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Exa/src/main/java/entity/HospitalDatabase/Visitations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Exa/src/main/java/entity/Sales/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Exa/src/main/java/entity/Sales/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Exa/src/main/java/entity/Sales/Sale.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Exa/src/main/java/entity/Sales/StoreLocation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Exa/src/main/java/entity/UniversitySystem/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Exa/src/main/java/entity/UniversitySystem/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Exa/src/main/java/entity/UniversitySystem/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Exa/src/main/java/entity/UniversitySystem/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Exa/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Exa/target/classes/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Exa/target/classes/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Exa/target/classes/entity/BasicTable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Exa/target/classes/entity/BillsPaymentSystem/BankAccount.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Exa/target/classes/entity/BillsPaymentSystem/BillingDetails.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Exa/target/classes/entity/BillsPaymentSystem/CreditCard.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Exa/target/classes/entity/BillsPaymentSystem/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Exa/target/classes/entity/Football/Bet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Exa/target/classes/entity/Football/BetGames.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Exa/target/classes/entity/Football/Color.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Exa/target/classes/entity/Football/Competition.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Exa/target/classes/entity/Football/CompetitionType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Exa/target/classes/entity/Football/Continent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Exa/target/classes/entity/Football/Country.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Exa/target/classes/entity/Football/Game.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Exa/target/classes/entity/Football/Player.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Exa/target/classes/entity/Football/PlayerStatistic.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Exa/target/classes/entity/Football/Position.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Exa/target/classes/entity/Football/ResultPrediction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Exa/target/classes/entity/Football/Round.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Exa/target/classes/entity/Football/Team.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Exa/target/classes/entity/Football/Town.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Exa/target/classes/entity/Football/Users.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Exa/target/classes/entity/Gringotts/WizardDeposits.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Exa/target/classes/entity/HospitalDatabase/Diagnoses.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Exa/target/classes/entity/HospitalDatabase/History.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Exa/target/classes/entity/HospitalDatabase/Medicament.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Exa/target/classes/entity/HospitalDatabase/Patient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Exa/target/classes/entity/HospitalDatabase/Visitations.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Exa/target/classes/entity/Sales/Customer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Exa/target/classes/entity/Sales/Product.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Exa/target/classes/entity/Sales/Sale.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Exa/target/classes/entity/Sales/StoreLocation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Exa/target/classes/entity/UniversitySystem/Course.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Exa/target/classes/entity/UniversitySystem/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Exa/target/classes/entity/UniversitySystem/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Exa/target/classes/entity/UniversitySystem/Teacher.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Exa/~$. Hibernate-Code-First-Exercises.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Work/04. Hibernate-Code-First-Lab.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.Hibernate Code First/Work/04. Hibernate-Code-First.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5.Spring Data Intro/Exa/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5.Spring Data Intro/Exa/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5.Spring Data Intro/Exa/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5.Spring Data Intro/Exa/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5.Spring Data Intro/Exa/06. Spring-Data-Intro-Exercises.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5.Spring Data Intro/Exa/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5.Spring Data Intro/Exa/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5.Spring Data Intro/Exa/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5.Spring Data Intro/Exa/src.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5.Spring Data Intro/Exa/src/main/java/com/example/springintroexa/RunSpring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5.Spring Data Intro/Exa/src/main/java/com/example/springintroexa/SpringIntroExaApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5.Spring Data Intro/Exa/src/main/java/com/example/springintroexa/enums/AgeRestriction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5.Spring Data Intro/Exa/src/main/java/com/example/springintroexa/enums/EditionType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5.Spring Data Intro/Exa/src/main/java/com/example/springintroexa/models/Author.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5.Spring Data Intro/Exa/src/main/java/com/example/springintroexa/models/BasicTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5.Spring Data Intro/Exa/src/main/java/com/example/springintroexa/models/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5.Spring Data Intro/Exa/src/main/java/com/example/springintroexa/models/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5.Spring Data Intro/Exa/src/main/java/com/example/springintroexa/repositories/AuthorRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5.Spring Data Intro/Exa/src/main/java/com/example/springintroexa/repositories/BookRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5.Spring Data Intro/Exa/src/main/java/com/example/springintroexa/repositories/CategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5.Spring Data Intro/Exa/src/main/java/com/example/springintroexa/services/impl/AuthorServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5.Spring Data Intro/Exa/src/main/java/com/example/springintroexa/services/impl/BookServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5.Spring Data Intro/Exa/src/main/java/com/example/springintroexa/services/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5.Spring Data Intro/Exa/src/main/java/com/example/springintroexa/services/interfaces/AuthorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5.Spring Data Intro/Exa/src/main/java/com/example/springintroexa/services/interfaces/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5.Spring Data Intro/Exa/src/main/java/com/example/springintroexa/services/interfaces/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5.Spring Data Intro/Exa/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5.Spring Data Intro/Exa/src/main/resources/files/authors.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5.Spring Data Intro/Exa/src/main/resources/files/books.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5.Spring Data Intro/Exa/src/main/resources/files/categories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5.Spring Data Intro/Exa/src/test/java/com/example/springintroexa/SpringIntroExaApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5.Spring Data Intro/Work/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5.Spring Data Intro/Work/.jpb/jpb-settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5.Spring Data Intro/Work/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5.Spring Data Intro/Work/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5.Spring Data Intro/Work/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5.Spring Data Intro/Work/06. Spring-Data-Intro-Lab.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5.Spring Data Intro/Work/06. Spring-Data-Intro.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5.Spring Data Intro/Work/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5.Spring Data Intro/Work/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5.Spring Data Intro/Work/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5.Spring Data Intro/Work/src/main/java/com/example/work/BasicTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5.Spring Data Intro/Work/src/main/java/com/example/work/RunApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5.Spring Data Intro/Work/src/main/java/com/example/work/WorkApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5.Spring Data Intro/Work/src/main/java/com/example/work/exeptions/NotAccountUserException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5.Spring Data Intro/Work/src/main/java/com/example/work/exeptions/NotEnoughMoneyException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5.Spring Data Intro/Work/src/main/java/com/example/work/exeptions/UsernameExistsExeption.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5.Spring Data Intro/Work/src/main/java/com/example/work/models/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5.Spring Data Intro/Work/src/main/java/com/example/work/models/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5.Spring Data Intro/Work/src/main/java/com/example/work/repositories/AccountRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5.Spring Data Intro/Work/src/main/java/com/example/work/repositories/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5.Spring Data Intro/Work/src/main/java/com/example/work/services/Impl/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5.Spring Data Intro/Work/src/main/java/com/example/work/services/Impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5.Spring Data Intro/Work/src/main/java/com/example/work/services/interfaces/AccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5.Spring Data Intro/Work/src/main/java/com/example/work/services/interfaces/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5.Spring Data Intro/Work/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5.Spring Data Intro/Work/src/test/java/com/example/work/WorkApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../6.Spring Data Advanced Quering/Exa/src/main/java/com/example/springintro/configorations/BeanConf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../6.Spring Data Advanced Quering/Work/Lab_skeleton.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../6.Spring Data Advanced Quering/Work/src/main/java/com/example/advquerying/AplicationRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../6.Spring Data Advanced Quering/Work/src/main/java/com/example/advquerying/repositories/BaseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../6.Spring Data Advanced Quering/Work/src/main/java/com/example/advquerying/repositories/IngredientsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../6.Spring Data Advanced Quering/Work/src/main/java/com/example/advquerying/repositories/ShampoosRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../7.Spring Data Auto Mapping Objects/Work/src/main/java/com/example/work/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../7.Spring Data Auto Mapping Objects/Work/src/main/java/com/example/work/config/MappingConf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../7.Spring Data Auto Mapping Objects/Work/src/main/java/com/example/work/models/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../7.Spring Data Auto Mapping Objects/Work/src/main/java/com/example/work/models/dtos/EmployeeDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../7.Spring Data Auto Mapping Objects/Work/src/main/java/com/example/work/repositories/EmployeeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../7.Spring Data Auto Mapping Objects/Work/src/main/java/com/example/work/services/EmplpyeeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../7.Spring Data Auto Mapping Objects/Work/src/main/java/com/example/work/services/interfaces/EmployeeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MySQL/6.SUBQUERIES AND JOINS/Exa/Subqueries and JOINs - Exercise.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../../MySQL/6.SUBQUERIES AND JOINS/Exa/Subqueries and JOINs - Exercise.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MySQL/7.DATABASE PROGRAMMABILITY AND TRANSACTIONS/Exa/Database Programmability - Exercise.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../../MySQL/7.DATABASE PROGRAMMABILITY AND TRANSACTIONS/Exa/Database Programmability - Exercise.sql" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Tag Library Descriptor" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="JPA Structure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="JPA Structure" value="true" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectId" id="1uii3qzjPgcoTSgWv7ARcdqYUOF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../5.Spring Data Intro/Work" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Softtuni\4.Data Base\Spring Data\3.Introduction to Hibernate\Work\src\main\resources" />
+      <recent name="D:\Softtuni\4.Data Base\Spring Data\3.Introduction to Hibernate\Work\src\main\java\hibarnateXmlPacage" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Work" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f09228b8-0dd8-44d1-9818-ea43bbdee47a" name="Default Changelist" comment="" />
+      <created>1625154615823</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1625154615823</updated>
+      <workItem from="1625154617540" duration="17441000" />
+      <workItem from="1625241260039" duration="2271000" />
+      <workItem from="1625254840103" duration="1780000" />
+      <workItem from="1626520151377" duration="17000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

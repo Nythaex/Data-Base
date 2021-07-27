@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="entity.User" table="user" >
+        <id name="id" type="int" column="id">
+            <generator class="native"/>
+        </id>
+                <property name="username" type="java.lang.String" column="username"/>
+        <property name="password" type="java.lang.String" column="password"/>
+<!--        <many-to-one name="town" not-null="false" column="town_id" class="entity.Town"/>-->
+
+    </class>
+
+</hibernate-mapping>

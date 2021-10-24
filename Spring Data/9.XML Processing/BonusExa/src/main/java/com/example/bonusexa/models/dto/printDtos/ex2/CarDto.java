@@ -1,4 +1,4 @@
-package com.example.bonusexa.models.dto.printDtos;
+package com.example.bonusexa.models.dto.printDtos.ex2;
 
 import com.example.bonusexa.models.Part;
 import com.example.bonusexa.models.Sale;
@@ -12,6 +12,7 @@ import javax.persistence.OneToOne;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlAttribute;
+import javax.xml.bind.annotation.XmlRootElement;
 import java.util.Set;
 
 @XmlAccessorType(XmlAccessType.FIELD)
@@ -25,7 +26,7 @@ public class CarDto {
     @XmlAttribute(name = "model")
     private String model;
 
-    @XmlAttribute(name = "id")
+    @XmlAttribute(name = "travelled-distance")
     private Double travelledDistance;
 
 

@@ -1,15 +1,21 @@
 package com.example.bonusexa.models.dto.seedDtos;
 
-import com.google.gson.annotations.Expose;
+
 
 import javax.persistence.Entity;
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlRootElement;
 
+@XmlAccessorType(XmlAccessType.FIELD)
 public class SeedCarDto {
-    @Expose
+
+    @XmlElement(name = "make")
      private String make;
-    @Expose
+    @XmlElement(name = "model")
      private String model;
-    @Expose
+    @XmlElement(name = "travelled-distance")
      private Double travelledDistance;
 
 

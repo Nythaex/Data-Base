@@ -1,15 +1,22 @@
 package com.example.bonusexa.models.dto.seedDtos;
 
-import com.google.gson.annotations.Expose;
 
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlAttribute;
+import javax.xml.bind.annotation.XmlElement;
 import java.time.LocalDate;
 
+@XmlAccessorType(XmlAccessType.FIELD)
 public class SeedCustomerDto {
-    @Expose
+
+    @XmlAttribute(name = "name")
     private String name;
-    @Expose
+
+    @XmlElement(name = "birth-date")
     private String birthDate;
-    @Expose
+
+    @XmlElement(name = "is-young-driver")
     private Boolean isYoungDriver;
 
     public SeedCustomerDto(String name, String birthDate, Boolean isYoungDriver) {

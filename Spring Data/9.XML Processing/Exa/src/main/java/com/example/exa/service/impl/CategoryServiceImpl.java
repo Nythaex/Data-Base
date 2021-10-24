@@ -1,9 +1,8 @@
 package com.example.exa.service.impl;
 
-import com.example.exa.model.dto.CategoryDto;
+import com.example.exa.model.dto.ex3.CategoryDto;
 import com.example.exa.model.dto.SeedAllCategoriesDto;
-import com.example.exa.model.dto.SeedAllProductsDto;
-import com.example.exa.model.dto.SeedCategoryDto;
+import com.example.exa.model.dto.ex3.PrintAllCategoriesInfoRoot;
 import com.example.exa.model.entity.Category;
 import com.example.exa.model.entity.Product;
 import com.example.exa.repository.CategoryRepository;
@@ -16,13 +15,10 @@ import javax.validation.Validator;
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Unmarshaller;
+import java.io.FileNotFoundException;
 import java.io.FileReader;
-import java.io.IOException;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -44,21 +40,22 @@ public class CategoryServiceImpl implements CategoryService {
     }
 
     @Override
-    public void seedCategories() throws IOException, JAXBException {
+    public void seedCategories() throws JAXBException, FileNotFoundException {
         if (categoryRepository.count() > 0) {
             return;
         }
         JAXBContext jaxbContext = JAXBContext.newInstance(SeedAllCategoriesDto.class);
         Unmarshaller unmarshaller = jaxbContext.createUnmarshaller();
+        FileReader fileReader = new FileReader(FILES_PACKAGE_PATH + FILE_NAME);
 
-        SeedAllCategoriesDto seedAll = (SeedAllCategoriesDto) unmarshaller.unmarshal(new FileReader(FILES_PACKAGE_PATH + FILE_NAME));
-        List<Category> collect = seedAll.getCategoryes().stream().filter(s -> validator.validate(s).isEmpty()).map(s -> mapper.map(s, Category.class)).collect(Collectors.toList());
+        SeedAllCategoriesDto seedAll = (SeedAllCategoriesDto) unmarshaller.unmarshal(fileReader);
+        List<Category> collect = seedAll.getCategories().stream().filter(s -> validator.validate(s).isEmpty()).map(s -> mapper.map(s, Category.class)).collect(Collectors.toList());
         collect.forEach(categoryRepository::save);
 
     }
 
     @Override
-    public List<CategoryDto> getAllCategories() {
+    public PrintAllCategoriesInfoRoot getAllCategories() {
         List<CategoryDto> list = categoryRepository.findAll().stream().map(category -> {
             CategoryDto categoryDto = mapper.map(category, CategoryDto.class);
             BigDecimal total = BigDecimal.valueOf(0);
@@ -73,7 +70,8 @@ public class CategoryServiceImpl implements CategoryService {
 
             return categoryDto;
         }).collect(Collectors.toList());
-        return list;
+
+        return new PrintAllCategoriesInfoRoot(list);
     }
 
 }

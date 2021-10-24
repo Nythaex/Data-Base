@@ -1,21 +1,36 @@
-package com.example.bonusexa.models.dto.printDtos;
+package com.example.bonusexa.models.dto.printDtos.ex6;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlElement;
+
+@XmlAccessorType(XmlAccessType.FIELD)
 public class SaleInfoDto {
-    @Expose
-    @SerializedName(value = "customerName")
+    @XmlElement(name = "car")
+    private CarDtoWithoutId carDto;
+
+    @XmlElement(name = "customer-name")
     private String name;
 
-    @Expose
+    @XmlElement(name = "discount")
     private double discount;
 
-    @Expose
+    @XmlElement(name = "price")
     private Double price;
 
-    @Expose
+    @XmlElement(name = "price-with-discount")
     private Double priceWithDiscount;
+
+    public CarDtoWithoutId getCarDto() {
+        return carDto;
+    }
+
+    public void setCarDto(CarDtoWithoutId carDto) {
+        this.carDto = carDto;
+    }
 
     public SaleInfoDto(String name, double discount, Double price) {
         this.name = name;

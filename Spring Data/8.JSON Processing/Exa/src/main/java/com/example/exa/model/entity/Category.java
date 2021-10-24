@@ -43,5 +43,8 @@ public class Category extends BasicEntity{
         return getName().equals(category.getName());
     }
 
-
+    @Override
+    public int hashCode() {
+        return Objects.hash(getName());
+    }
 }

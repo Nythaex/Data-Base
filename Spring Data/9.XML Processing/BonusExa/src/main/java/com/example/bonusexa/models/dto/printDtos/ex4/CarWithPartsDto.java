@@ -1,19 +1,21 @@
-package com.example.bonusexa.models.dto.printDtos;
-
-import com.example.bonusexa.models.Part;
+package com.example.bonusexa.models.dto.printDtos.ex4;
 
 
+import javax.xml.bind.annotation.*;
 import java.util.HashSet;
 import java.util.Set;
 
+@XmlAccessorType(XmlAccessType.FIELD)
 public class CarWithPartsDto {
 
+    @XmlAttribute(name = "make")
     private String make;
-
+    @XmlAttribute(name = "model")
     private String model;
-
+    @XmlAttribute(name = "travelled-distance")
     private String travelledDistance;
-
+    @XmlElementWrapper(name = "parts")
+    @XmlElement(name = "part")
     private Set<PartDto> parts=new HashSet<>();
 
     public CarWithPartsDto(String make, String model, String travelledDistance) {

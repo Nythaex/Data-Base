@@ -1,6 +1,5 @@
-package com.example.productshopxml.util.impl;
+package com.example.bonusexa.ustils;
 
-import com.example.productshopxml.util.XmlParser;
 import org.hibernate.annotations.Cache;
 import org.springframework.stereotype.Component;
 

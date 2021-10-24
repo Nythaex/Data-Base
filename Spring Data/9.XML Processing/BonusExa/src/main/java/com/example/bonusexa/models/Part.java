@@ -57,7 +57,7 @@ public class Part extends BasicEntity{
         this.supplier = supplier;
     }
 
-    @ManyToMany(mappedBy = "parts")
+    @ManyToMany(mappedBy = "parts",fetch = FetchType.EAGER)
     public Set<Car> getCars() {
         return cars;
     }
@@ -74,8 +74,5 @@ public class Part extends BasicEntity{
         return getName().equals(part.getName());
     }
 
-    @Override
-    public int hashCode() {
-        return Objects.hash(getName());
-    }
+
 }

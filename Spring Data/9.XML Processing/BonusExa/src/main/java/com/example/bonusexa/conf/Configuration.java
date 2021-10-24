@@ -1,20 +1,12 @@
 package com.example.bonusexa.conf;
 
 import com.example.bonusexa.models.Customer;
-import com.example.bonusexa.models.dto.printDtos.CustomerByBirthDateDto;
+import com.example.bonusexa.models.dto.printDtos.ex1.CustomerByBirthDateDto;
 import com.example.bonusexa.models.dto.seedDtos.SeedCustomerDto;
 import com.google.gson.*;
-import org.modelmapper.AbstractConverter;
-import org.modelmapper.Converter;
 import org.modelmapper.ModelMapper;
 import org.modelmapper.PropertyMap;
 import org.springframework.context.annotation.Bean;
-
-import java.lang.reflect.Type;
-import java.time.LocalDate;
-import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
-import java.util.Locale;
 
 @org.springframework.context.annotation.Configuration
 public class Configuration {

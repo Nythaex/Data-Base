@@ -1,14 +1,19 @@
-package com.example.bonusexa.models.dto.printDtos;
+package com.example.bonusexa.models.dto.printDtos.ex5;
 
 import com.google.gson.annotations.Expose;
 
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlAttribute;
+
+@XmlAccessorType(XmlAccessType.FIELD)
 public class CustomerCarsDtos
 {
-    @Expose
+    @XmlAttribute(name = "full-name")
     private String fullName;
-    @Expose
+    @XmlAttribute(name = "bought-cars")
     private Long boughtCars;
-    @Expose
+    @XmlAttribute(name = "spent-money")
     private Double totalSum;
 
     public CustomerCarsDtos(String fullName, Long boughtCars, Double totalSum) {

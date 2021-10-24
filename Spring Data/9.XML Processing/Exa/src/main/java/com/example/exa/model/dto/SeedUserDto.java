@@ -1,15 +1,24 @@
 package com.example.exa.model.dto;
 
-import com.google.gson.annotations.Expose;
 
+
+import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Pattern;
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlAttribute;
+import javax.xml.bind.annotation.XmlRootElement;
 
+
+
+@XmlAccessorType(XmlAccessType.FIELD)
 public class SeedUserDto {
-    @Expose
+
+    @XmlAttribute(name = "first-name")
     private String firstName;
-    @Expose
+    @XmlAttribute(name = "last-name")
     private String lastName;
-    @Expose
+    @XmlAttribute(name = "age")
     private int age;
 
     public SeedUserDto(String firstName, String lastName, int age) {
@@ -31,6 +40,7 @@ public class SeedUserDto {
     }
 
     @Pattern(regexp = "[A-z/d]{3,}")
+    @NotNull
     public String getLastName() {
         return lastName;
     }

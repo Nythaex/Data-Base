@@ -13,8 +13,8 @@ public class UserWithAgeAndProductsDto {
     @XmlAttribute(name = "age")
     private int age;
 
-    @XmlElementWrapper(name = "sold-products")
-    @XmlElement(name = "product")
+
+    @XmlElement(name = "sold-products")
     private ProductCountDto productCountDtos;
 
     public UserWithAgeAndProductsDto(String firstName, String lastName, int age) {

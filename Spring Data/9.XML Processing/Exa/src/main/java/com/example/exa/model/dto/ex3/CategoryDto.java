@@ -1,4 +1,4 @@
-package com.example.exa.model.dto;
+package com.example.exa.model.dto.ex3;
 
 
 
@@ -17,7 +17,7 @@ public class CategoryDto {
     private int productCount;
     @XmlElement(name = "average-price")
     private BigDecimal averagePrice;
-    @XmlElement(name = "count")
+    @XmlElement(name = "total-revenue")
     private BigDecimal totalRevenue;
 
     public String getName() {

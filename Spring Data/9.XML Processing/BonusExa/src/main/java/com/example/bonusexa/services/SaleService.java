@@ -1,11 +1,12 @@
 package com.example.bonusexa.services;
 
-import com.example.bonusexa.models.dto.printDtos.SalesAndCustomersAndCarsDto;
+import com.example.bonusexa.models.dto.printDtos.ex6.PrintSalesWithDiscount;
+import com.example.bonusexa.models.dto.printDtos.ex6.SalesAndCustomersAndCarsDto;
 
 import java.util.List;
 
 public interface SaleService {
     void seed();
 
-    List<SalesAndCustomersAndCarsDto> getAllSalesWithInformation();
+    PrintSalesWithDiscount getAllSalesWithInformation();
 }

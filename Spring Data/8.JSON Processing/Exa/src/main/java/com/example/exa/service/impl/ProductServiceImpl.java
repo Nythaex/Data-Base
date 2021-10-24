@@ -62,16 +62,9 @@ public class ProductServiceImpl implements ProductService {
             for (int i = 0; i < 3; i++) {
                 Category category = categoryRepository.findById(Long.parseLong(String.valueOf(getRandomNumberUsingNextInt(1, Integer.parseInt(String.valueOf(categoryRepository.count() - 1)))))).orElse(null);
 
-                boolean check = false;
-                for (Category c : s.getCategories()) {
-                    if (c.getName().equals(category.getName())) {
-                        check = true;
-                        break;
-                    }
-                }
-                if (!check) {
+
                     s.getCategories().add(category);
-                }
+
 
             }
 

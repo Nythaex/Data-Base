@@ -1,4 +1,4 @@
-package com.example.bonusexa.models.dto.printDtos;
+package com.example.bonusexa.models.dto.printDtos.ex3;
 
 import com.google.gson.annotations.Expose;
 

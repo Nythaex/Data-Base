@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f8e1db02-894a-410f-aedf-75642e42bf12" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Exa/src/main/java/com/example/exa/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exa/src/main/java/com/example/exa/config/ApplicationConfigs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exa/src/main/java/com/example/exa/model/dto/SeedAllCategoriesDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exa/src/main/java/com/example/exa/model/dto/SeedAllProductsDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exa/src/main/java/com/example/exa/model/dto/SeedAllUsersDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exa/src/main/java/com/example/exa/model/dto/ex1/PrintAllProductsInRange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exa/src/main/java/com/example/exa/model/dto/ex2/PrintAllUsersAndPorductsRoot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exa/src/main/java/com/example/exa/model/dto/ex3/PrintAllCategoriesInfoRoot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exa/src/main/java/com/example/exa/model/dto/ex4/PrintEverything.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exa/src/main/java/com/example/exa/model/entity/BasicEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exa/src/main/java/com/example/exa/model/entity/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exa/src/main/java/com/example/exa/model/entity/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exa/src/main/java/com/example/exa/model/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exa/src/main/java/com/example/exa/repository/CategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exa/src/main/java/com/example/exa/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exa/src/main/java/com/example/exa/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exa/src/main/java/com/example/exa/service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exa/src/main/java/com/example/exa/service/impl/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exa/src/main/java/com/example/exa/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exa/src/main/java/com/example/exa/service/interf/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exa/src/main/java/com/example/exa/service/interf/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exa/src/main/java/com/example/exa/service/interf/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exa/src/main/java/com/example/exa/util/ValidatorUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exa/src/main/java/com/example/exa/util/ValidatorUtilImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exa/src/main/resources/09. XML-Processing-Exercises/out/firstExa.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exa/src/main/resources/09. XML-Processing-Exercises/out/fourExa.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exa/src/main/resources/09. XML-Processing-Exercises/out/secondExa.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exa/src/main/resources/09. XML-Processing-Exercises/out/thirdExa.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8.JSON Processing/Bonus Exa/src/main/java/com/example/bonusexa/models/Part.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../8.JSON Processing/Bonus Exa/src/main/java/com/example/bonusexa/models/Part.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8.JSON Processing/Bonus Exa/src/main/java/com/example/bonusexa/models/dto/printDtos/SalesAndCustomersAndCarsDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../8.JSON Processing/Bonus Exa/src/main/java/com/example/bonusexa/models/dto/printDtos/SalesAndCustomersAndCarsDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8.JSON Processing/Bonus Exa/src/main/java/com/example/bonusexa/models/dto/printDtos/SalesDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../8.JSON Processing/Bonus Exa/src/main/java/com/example/bonusexa/models/dto/printDtos/SalesDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8.JSON Processing/Bonus Exa/src/main/java/com/example/bonusexa/models/dto/seedDtos/CarDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../8.JSON Processing/Bonus Exa/src/main/java/com/example/bonusexa/models/dto/printDtos/CarDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8.JSON Processing/Bonus Exa/src/main/java/com/example/bonusexa/models/dto/seedDtos/SeedCarDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../8.JSON Processing/Bonus Exa/src/main/java/com/example/bonusexa/models/dto/seedDtos/SeedCarDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8.JSON Processing/Bonus Exa/src/main/java/com/example/bonusexa/models/dto/seedDtos/SeedCustomerDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../8.JSON Processing/Bonus Exa/src/main/java/com/example/bonusexa/models/dto/seedDtos/SeedCustomerDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8.JSON Processing/Bonus Exa/src/main/java/com/example/bonusexa/models/dto/seedDtos/SeedPartDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../8.JSON Processing/Bonus Exa/src/main/java/com/example/bonusexa/models/dto/seedDtos/SeedPartDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8.JSON Processing/Bonus Exa/src/main/java/com/example/bonusexa/models/dto/seedDtos/SeedSaleDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../8.JSON Processing/Bonus Exa/src/main/java/com/example/bonusexa/models/dto/seedDtos/SeedSaleDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8.JSON Processing/Bonus Exa/src/main/java/com/example/bonusexa/models/dto/seedDtos/SeedSupplierDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../8.JSON Processing/Bonus Exa/src/main/java/com/example/bonusexa/models/dto/seedDtos/SeedSupplierDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8.JSON Processing/Bonus Exa/src/main/java/com/example/bonusexa/services/CarService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../8.JSON Processing/Bonus Exa/src/main/java/com/example/bonusexa/services/CarService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8.JSON Processing/Bonus Exa/src/main/java/com/example/bonusexa/services/impl/CarServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../8.JSON Processing/Bonus Exa/src/main/java/com/example/bonusexa/services/impl/CarServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8.JSON Processing/Bonus Exa/src/main/java/com/example/bonusexa/services/impl/SaleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../8.JSON Processing/Bonus Exa/src/main/java/com/example/bonusexa/services/impl/SaleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8.JSON Processing/Exa/src/main/java/com/example/exa/model/dto/AllUserWitSoldItemsDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exa/src/main/java/com/example/exa/model/dto/ex4/AllUserWitSoldItemsDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8.JSON Processing/Exa/src/main/java/com/example/exa/model/dto/CategoryDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exa/src/main/java/com/example/exa/model/dto/ex3/CategoryDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8.JSON Processing/Exa/src/main/java/com/example/exa/model/dto/ProductCountDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exa/src/main/java/com/example/exa/model/dto/ex4/ProductCountDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8.JSON Processing/Exa/src/main/java/com/example/exa/model/dto/ProductNameAndPrice.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exa/src/main/java/com/example/exa/model/dto/ex4/ProductNameAndPrice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8.JSON Processing/Exa/src/main/java/com/example/exa/model/dto/ProductWithBuyer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exa/src/main/java/com/example/exa/model/dto/ex2/ProductWithBuyer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8.JSON Processing/Exa/src/main/java/com/example/exa/model/dto/ProductWithSellerDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exa/src/main/java/com/example/exa/model/dto/ex1/ProductWithSellerDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8.JSON Processing/Exa/src/main/java/com/example/exa/model/dto/SeedCategoryDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exa/src/main/java/com/example/exa/model/dto/SeedCategoryDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8.JSON Processing/Exa/src/main/java/com/example/exa/model/dto/SeedProductDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exa/src/main/java/com/example/exa/model/dto/SeedProductDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8.JSON Processing/Exa/src/main/java/com/example/exa/model/dto/SeedUserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exa/src/main/java/com/example/exa/model/dto/SeedUserDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8.JSON Processing/Exa/src/main/java/com/example/exa/model/dto/UserWithAgeAndProductsDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exa/src/main/java/com/example/exa/model/dto/ex4/UserWithAgeAndProductsDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8.JSON Processing/Exa/src/main/java/com/example/exa/model/dto/UserWithProductsDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exa/src/main/java/com/example/exa/model/dto/ex2/UserWithProductsDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8.JSON Processing/Exa/src/main/java/com/example/exa/model/entity/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../8.JSON Processing/Exa/src/main/java/com/example/exa/model/entity/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8.JSON Processing/Exa/src/main/java/com/example/exa/service/impl/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../8.JSON Processing/Exa/src/main/java/com/example/exa/service/impl/ProductServiceImpl.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1vzfP74NUzY7euXr2rjJcyQytHC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f8e1db02-894a-410f-aedf-75642e42bf12" name="Changes" comment="" />
+      <created>1627569811125</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1627569811125</updated>
+      <workItem from="1627569812996" duration="58000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

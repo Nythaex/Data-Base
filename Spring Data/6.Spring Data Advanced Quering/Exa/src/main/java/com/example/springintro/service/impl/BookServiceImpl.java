@@ -132,6 +132,21 @@ public class BookServiceImpl implements BookService {
         return bookRepository.findInfoAboutBooksWithGivenTitle(title);
     }
 
+    @Override
+    public Integer increasedBooksCount(LocalDate date, Integer count) {
+        return bookRepository.addGivenBooksAfterThatDate(date,count);
+    }
+
+    @Override
+    public Integer deleteBooksByCount(Integer count) {
+        return bookRepository.deleteBook(count);
+    }
+
+    @Override
+    public String findAllBooksByAuthor(String firstName,String lastName) {
+        return bookRepository.getAllByAuthor(firstName,lastName);
+    }
+
     private Book createBookFromInfo(String[] bookInfo) {
         EditionType editionType = EditionType.values()[Integer.parseInt(bookInfo[0])];
         LocalDate releaseDate = LocalDate

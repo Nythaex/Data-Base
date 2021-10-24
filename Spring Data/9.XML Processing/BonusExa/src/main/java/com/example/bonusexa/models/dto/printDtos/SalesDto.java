@@ -1,6 +1,7 @@
 package com.example.bonusexa.models.dto.printDtos;
 
 import com.example.bonusexa.models.Customer;
+import com.example.bonusexa.models.dto.printDtos.ex2.CarDto;
 import com.google.gson.annotations.Expose;
 
 import javax.persistence.ManyToOne;

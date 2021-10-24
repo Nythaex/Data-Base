@@ -4,9 +4,11 @@ import com.example.bonusexa.models.Car;
 import com.example.bonusexa.models.Customer;
 import com.example.bonusexa.models.Part;
 import com.example.bonusexa.models.Sale;
-import com.example.bonusexa.models.dto.printDtos.SaleInfoDto;
-import com.example.bonusexa.models.dto.printDtos.SalesAndCustomersAndCarsDto;
-import com.example.bonusexa.models.dto.printDtos.CarDto;
+import com.example.bonusexa.models.dto.printDtos.ex6.CarDtoWithoutId;
+import com.example.bonusexa.models.dto.printDtos.ex6.PrintSalesWithDiscount;
+import com.example.bonusexa.models.dto.printDtos.ex6.SaleInfoDto;
+import com.example.bonusexa.models.dto.printDtos.ex6.SalesAndCustomersAndCarsDto;
+import com.example.bonusexa.models.dto.printDtos.ex2.CarDto;
 import com.example.bonusexa.models.dto.seedDtos.SeedSaleDto;
 import com.example.bonusexa.repos.CarRepository;
 import com.example.bonusexa.repos.CustomerRepository;
@@ -75,12 +77,12 @@ public class SaleServiceImpl implements SaleService {
     }
 
     @Override
-    public List<SalesAndCustomersAndCarsDto> getAllSalesWithInformation() {
+    public PrintSalesWithDiscount getAllSalesWithInformation() {
         List<SalesAndCustomersAndCarsDto> collect = saleRepository.findAll().stream().map(sale -> {
-            SalesAndCustomersAndCarsDto salesAndCustomersAndCarsDto = new SalesAndCustomersAndCarsDto();
 
-            salesAndCustomersAndCarsDto.setCarDto(mapper.map(sale.getCar(), CarDto.class));
+            SalesAndCustomersAndCarsDto salesAndCustomersAndCarsDto = new SalesAndCustomersAndCarsDto();
             SaleInfoDto saleInfoDto = mapper.map(sale, SaleInfoDto.class);
+            saleInfoDto.setCarDto(mapper.map(sale.getCar(),CarDtoWithoutId.class));
             saleInfoDto.setName(sale.getCustomer().getName());
             Double totalPrice = 0d;
 
@@ -95,7 +97,7 @@ public class SaleServiceImpl implements SaleService {
             return salesAndCustomersAndCarsDto;
         }).collect(Collectors.toList());
 
-        return collect;
+        return new PrintSalesWithDiscount(collect);
     }
 
 

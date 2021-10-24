@@ -1,13 +1,18 @@
 package com.example.bonusexa.models.dto.seedDtos;
 
-import com.google.gson.annotations.Expose;
 
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlAttribute;
+
+@XmlAccessorType(XmlAccessType.FIELD)
 public class SeedPartDto {
-    @Expose
+
+    @XmlAttribute(name = "name")
     private String name;
-    @Expose
+    @XmlAttribute(name = "price")
     private Double price;
-    @Expose
+    @XmlAttribute(name = "quantity")
     private int quantity;
 
     public SeedPartDto(String name, Double price, int quantity) {

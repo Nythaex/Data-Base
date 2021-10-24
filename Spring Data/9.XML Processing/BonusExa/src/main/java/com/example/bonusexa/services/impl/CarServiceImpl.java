@@ -2,24 +2,26 @@ package com.example.bonusexa.services.impl;
 
 import com.example.bonusexa.models.Car;
 import com.example.bonusexa.models.Part;
-import com.example.bonusexa.models.dto.printDtos.CarWithPartsDto;
-import com.example.bonusexa.models.dto.printDtos.CarDto;
-import com.example.bonusexa.models.dto.seedDtos.SeedCarDto;
+import com.example.bonusexa.models.dto.printDtos.ex4.CarWithPartsDto;
+import com.example.bonusexa.models.dto.printDtos.ex2.CarDto;
+import com.example.bonusexa.models.dto.printDtos.ex2.PrintCarsFromMakeRoot;
+import com.example.bonusexa.models.dto.printDtos.ex4.PrintAllCarsWithParts;
+import com.example.bonusexa.models.dto.seedDtos.SeedCarsRoot;
 import com.example.bonusexa.repos.CarRepository;
 import com.example.bonusexa.repos.PartRepository;
 import com.example.bonusexa.services.CarService;
+import com.example.bonusexa.ustils.XmlParser;
 import com.google.gson.Gson;
 import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Service;
 
 import javax.validation.Validator;
+import javax.xml.bind.JAXBException;
 import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Path;
 import java.util.*;
 import java.util.stream.Collectors;
 
-import static com.example.bonusexa.constants.Constants.FILES_PATH;
+
 
 @Service
 public class CarServiceImpl implements CarService {
@@ -29,30 +31,33 @@ public class CarServiceImpl implements CarService {
     private final ModelMapper mapper;
     private final String fileName = "cars.json";
     private final Validator validator;
+    private final XmlParser xmlParser;
+    private String FILE = "cars.xml";
+    public  String PATH="src/main/resources/09. XML-Processing-Exercises/";
 
-    public CarServiceImpl(CarRepository carRepository, PartRepository partRepository, Gson gson, ModelMapper mapper, Validator validator) {
+    public CarServiceImpl(CarRepository carRepository, PartRepository partRepository, Gson gson, ModelMapper mapper, Validator validator, XmlParser xmlParser) {
         this.carRepository = carRepository;
         this.partRepository = partRepository;
         this.gson = gson;
         this.mapper = mapper;
         this.validator = validator;
+        this.xmlParser = xmlParser;
     }
 
     @Override
-    public void seed() throws IOException {
-        if (carRepository.count()>0){
+    public void seed() throws IOException, JAXBException {
+        if (carRepository.count() > 0) {
             return;
         }
-        String items = Files.readString(Path.of(FILES_PATH + fileName));
-        SeedCarDto[] seedCarDtos = gson.fromJson(items, SeedCarDto[].class);
+        SeedCarsRoot seedCarsRoot = xmlParser.fromFile( PATH+ FILE, SeedCarsRoot.class);
 
-        Arrays.stream(seedCarDtos).filter(s->validator.validate(s).isEmpty()).forEach(s->{
-            Car car=mapper.map(s,Car.class);
-            Set<Part> parts=new HashSet<>();
+        seedCarsRoot.getCars().stream().filter(s -> validator.validate(s).isEmpty()).forEach(s -> {
+            Car car = mapper.map(s, Car.class);
+            Set<Part> parts = new HashSet<>();
 
             int partsCount = getRandomNumberUsingInts(3, 5);
-            while (parts.size()!=partsCount){
-                Long randomNum =Long.parseLong(String.valueOf(getRandomNumberUsingInts(1, Integer.parseInt(String.valueOf(partRepository.count())))));
+            while (parts.size() != partsCount) {
+                Long randomNum = Long.parseLong(String.valueOf(getRandomNumberUsingInts(1, Integer.parseInt(String.valueOf(partRepository.count())))));
                 Part part = partRepository.findById(randomNum).orElse(null);
 
                 parts.add(part);
@@ -65,21 +70,23 @@ public class CarServiceImpl implements CarService {
     }
 
     @Override
-    public List<CarDto> getAllCarsByMake(String make) {
-        return carRepository.findAllByMakeOrderByModelAscTravelledDistanceDesc(make).stream().map(car -> {
-            CarDto carDto=mapper.map(car,CarDto.class);
+    public PrintCarsFromMakeRoot getAllCarsByMake(String make) {
+        List<CarDto> collect = carRepository.findAllByMakeOrderByModelAscTravelledDistanceDesc(make).stream().map(car -> {
+            CarDto carDto = mapper.map(car, CarDto.class);
             return carDto;
         }).collect(Collectors.toList());
+
+        return new PrintCarsFromMakeRoot(collect);
     }
 
     @Override
-    public List<CarWithPartsDto> getAllCars() {
-        return carRepository.findAll().stream().map(car -> {
-            CarWithPartsDto carDto=mapper.map(car,CarWithPartsDto.class);
+    public PrintAllCarsWithParts getAllCars() {
+        List<CarWithPartsDto> collect = carRepository.findAll().stream().map(car -> {
+            CarWithPartsDto carDto = mapper.map(car, CarWithPartsDto.class);
 //
             return carDto;
         }).collect(Collectors.toList());
-
+        return new PrintAllCarsWithParts(collect);
     }
 
     public int getRandomNumberUsingInts(int min, int max) {

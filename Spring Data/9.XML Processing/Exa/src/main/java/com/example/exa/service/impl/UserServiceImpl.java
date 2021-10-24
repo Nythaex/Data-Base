@@ -1,7 +1,9 @@
 package com.example.exa.service.impl;
 
 import com.example.exa.model.dto.*;
-import com.example.exa.model.entity.Product;
+import com.example.exa.model.dto.ex2.PrintAllUsersAndPorductsRoot;
+import com.example.exa.model.dto.ex2.UserWithProductsDto;
+import com.example.exa.model.dto.ex4.*;
 import com.example.exa.model.entity.User;
 import com.example.exa.repository.UserRepository;
 import com.example.exa.service.interf.UserService;
@@ -12,13 +14,9 @@ import org.springframework.stereotype.Service;
 import javax.validation.Validator;
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
-import javax.xml.bind.Marshaller;
 import javax.xml.bind.Unmarshaller;
-import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -49,10 +47,10 @@ public class UserServiceImpl implements UserService {
 
         if (userRepository.count() == 0) {
 
-            JAXBContext jaxbContext=JAXBContext.newInstance(SeedUserCollection.class);
+            JAXBContext jaxbContext=JAXBContext.newInstance(SeedAllUsersDto.class);
             Unmarshaller unmarshaller = jaxbContext.createUnmarshaller();
-            SeedUserCollection seedUserDtoStream =(SeedUserCollection) unmarshaller.unmarshal(new FileReader(FILES_PACKAGE_PATH+FILE_NAME));
-            seedUserDtoStream.getUsers().stream().filter(s->validator.validate(s).isEmpty()).forEach(dtoUser->{
+            SeedAllUsersDto seedUserDtoStream =(SeedAllUsersDto) unmarshaller.unmarshal(new FileReader(FILES_PACKAGE_PATH+FILE_NAME));
+            seedUserDtoStream.getUsersDto().stream().filter(s->validator.validate(s).isEmpty()).forEach(dtoUser->{
                 User map = mapper.map(dtoUser, User.class);
                 userRepository.save(map);
             });
@@ -66,13 +64,15 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public List<UserWithProductsDto> getAllUsersWithAtLeastOneProductSold() {
+    public PrintAllUsersAndPorductsRoot getAllUsersWithAtLeastOneProductSold() {
+
         List<UserWithProductsDto> users = userRepository.usersWhoHaveAtLeastItemSold().stream().map(s -> {
             UserWithProductsDto userWithProductsDtor = mapper.map(s, UserWithProductsDto.class);
             return userWithProductsDtor;
         }).collect(Collectors.toList());
 
-        return users;
+        PrintAllUsersAndPorductsRoot printAllUsersAndPorductsRoot=new PrintAllUsersAndPorductsRoot(users);
+        return printAllUsersAndPorductsRoot;
     }
 
     @Override

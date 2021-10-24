@@ -10,9 +10,9 @@ import java.io.InputStreamReader;
 @Configuration
 public class BeanConf {
 
-     @Bean
-             public BufferedReader reader(){
-          return   new BufferedReader(new InputStreamReader(System.in));
-     }
+    @Bean
+    public BufferedReader reader() {
+        return new BufferedReader(new InputStreamReader(System.in));
+    }
 
 }

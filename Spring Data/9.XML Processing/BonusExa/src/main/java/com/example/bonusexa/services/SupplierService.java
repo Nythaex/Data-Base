@@ -1,14 +1,12 @@
 package com.example.bonusexa.services;
 
-import com.example.bonusexa.models.Supplier;
-import com.example.bonusexa.models.dto.printDtos.SuppliersPrintDto;
-import com.google.gson.JsonElement;
+import com.example.bonusexa.models.dto.printDtos.ex3.PrintLocalSuppliersRoot;
 
+import javax.xml.bind.JAXBException;
 import java.io.IOException;
-import java.util.List;
 
 public interface SupplierService {
-    void seed() throws IOException;
+    void seed() throws IOException, JAXBException;
 
-    List<SuppliersPrintDto> getAllSuppliersThatAreNotFromAbroad();
+    PrintLocalSuppliersRoot getAllSuppliersThatAreNotFromAbroad();
 }

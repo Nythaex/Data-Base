@@ -1,16 +1,21 @@
-package com.example.exa.model.dto;
+package com.example.exa.model.dto.ex1;
 
 import com.example.exa.model.entity.User;
 
 
+import javax.xml.bind.annotation.*;
 import java.math.BigDecimal;
-
+@XmlRootElement(name = "product")
+@XmlAccessorType(XmlAccessType.FIELD)
 public class ProductWithSellerDto {
 
+    @XmlAttribute(name = "name")
     private String name;
 
+    @XmlAttribute(name = "price")
     private BigDecimal price;
 
+    @XmlAttribute(name = "seller")
     private String seller;
 
     public ProductWithSellerDto(String name, BigDecimal price, String seller) {

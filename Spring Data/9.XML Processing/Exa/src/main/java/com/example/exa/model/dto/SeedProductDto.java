@@ -1,13 +1,19 @@
 package com.example.exa.model.dto;
 
-import com.google.gson.annotations.Expose;
 
+
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlElement;
 import java.math.BigDecimal;
 
+@XmlAccessorType(XmlAccessType.FIELD)
 public class SeedProductDto {
-    @Expose
+
+    @XmlElement(name = "name")
     private String name;
-    @Expose
+
+    @XmlElement(name = "price")
     private BigDecimal price;
 
     public SeedProductDto(String name, BigDecimal price) {

@@ -1,8 +1,10 @@
 package com.example.springintro.service;
 
 import com.example.springintro.model.entity.Book;
+import net.bytebuddy.asm.Advice;
 
 import java.io.IOException;
+import java.time.LocalDate;
 import java.util.List;
 
 public interface BookService {
@@ -31,4 +33,11 @@ public interface BookService {
     Integer findCountOfAllBooksWithTitleLongerThanTheGivenNumber(int titleSize);
 
     List<Object[]> findInfoAboutBooksWithGivenTitle(String title);
+
+    Integer increasedBooksCount(LocalDate date,Integer count);
+
+    Integer deleteBooksByCount(Integer count);
+
+
+   String findAllBooksByAuthor(String firstName,String lastName);
 }
